@@ -5,7 +5,7 @@ import RxSwift
 
 import ASListAdapter
 
-class RxBaseTableNodeController: ASViewController<ASTableNode> {
+class RxBaseTableNodeController: ASViewController<ASTableNode>, ASTableDelegate {
     
     lazy var listAdapter = ASListAdapter(self.node)
     private var lastIndex: Int = 0
