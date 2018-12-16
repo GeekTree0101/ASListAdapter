@@ -2,11 +2,12 @@ use_frameworks!
 
 target 'ASListAdapter_Example' do
   pod 'ASListAdapter', :path => '../'
+  pod 'Texture', '2.6'
 
   target 'ASListAdapter_Tests' do
     inherit! :search_paths
 
-    pod 'Quick', '~> 1.2.0'
-    pod 'Nimble', '~> 7.0.2'
+    pod 'Quick', '1.3.2'
+    pod 'Nimble', '7.3.1'
   end
 end
